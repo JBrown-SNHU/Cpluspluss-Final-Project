@@ -9,7 +9,8 @@ Summary of Project:
   fileLoader reads from an input .txt file and assigns produce in the file to produce list.
   If there are repeats in the file, then the amount of the item is updated.
   fileLoader then outputs the info as a .dat file.
-2nd Part: 
+
+  2nd Part: 
   The main then displays the menu with 4 options.
   Option 1:look up an item to output the amout of the item sold.
   Option 2: print a list of items sold that day.
@@ -18,7 +19,7 @@ Summary of Project:
  
 What did you do particularly well?
   
-   The seperating of fileLoader from the main program. The fileLoader program has nothing to do with the user, and it took up a great deal of space in my       main(). When I orginally submitted the project I was not able to find a way to have fileLoader serve as its own unique program seperate from the main, and bring that data from the list back into the main. After I submitted it, I went back and tried difference things until I found that you could pass the vector as a referece to return it back to the main.
+  The seperating of fileLoader from the main program. The fileLoader program has nothing to do with the user, and it took up a great deal of space in my       main(). When I orginally submitted the project I was not able to find a way to have fileLoader serve as its own unique program seperate from the main, and bring that data from the list back into the main. After I submitted it, I went back and tried difference things until I found that you could pass the vector as a referece to return it back to the main.
 
 Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
     
